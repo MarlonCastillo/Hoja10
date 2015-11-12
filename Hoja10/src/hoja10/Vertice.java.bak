@@ -1,0 +1,44 @@
+/*
+	Cristian Daniel De León Castillo, 14015.
+	Carlos Javier Lima Cordón, 14373.
+	Marlon Josue Castillo Martinez, 14247.
+	Fernando Sebastián Castillo Echeverría, 14102.
+*/
+
+/**
+* Con esta clase se puededeteriminar hacia qué lugar
+* se quiere dirigir la persona. Es uno de los vértices
+* del grafo
+*
+**/
+public class Vertice {
+	
+    private String nombre;
+   
+    /**
+    * Este es el constructor de objetos de la clase
+    * Vertex. Aquí se crea el vértice.
+    *
+    **/
+    public Vertice(String nombre){
+        this.nombre=nombre;
+    }
+    
+    /**
+    * Get para obtener el nombre del vértice
+    * (obtener nombre de una ciudad)
+    **/
+    public String getNombre() {
+        return nombre;
+    }
+    
+    /**
+     * Set para darle un nombre al vértice
+     * (un nombre a una ciudad)
+     *
+     **/
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+   
+}
